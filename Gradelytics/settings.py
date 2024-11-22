@@ -77,12 +77,12 @@ WSGI_APPLICATION = 'Gradelytics.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'djangodb',
-        'USER': 'root',
-        'PASSWORD': 'spandanray',
-        'HOST': 'localhost', 
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'student_database_a0qc',
+        'USER': 'student_database_a0qc_user',
+        'PASSWORD': 'nJswoYUkJ9EfyHcACbrky36pb2z1VrZI',
+        'HOST': 'dpg-ct0cb80gph6c73a8oaig-a.oregon-postgres.render.com', 
+        'PORT': '5432',  # Default PostgreSQL port
     }
 }
 
